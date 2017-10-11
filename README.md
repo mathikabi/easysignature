@@ -1,3 +1,2 @@
 # Digital Signature in Android
-Ported from Mediafire drive to Github. If you like this, star it
-[link to the Tutorial!](https://androidmads.blogspot.in/2015/10/digital-signature-in-android.html)
+<a href="https://play.google.com/store/apps/details?id=com.recyclerviewstaggeredgridview"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="72"></a>
