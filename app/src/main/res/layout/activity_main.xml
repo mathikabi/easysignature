@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="10"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_start_signature"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/bg_dash"
+        android:text="@string/hint_sign" />
+   <ImageView
+       android:id="@+id/img_red"
+       android:src="@drawable/red"
+       android:padding="10dp"
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:layout_height="match_parent"
+       />
+    <ImageView
+        android:id="@+id/img_yellow"
+        android:src="@drawable/yellow"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:id="@+id/img_blue"
+        android:src="@drawable/blue"
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+    <ImageView
+        android:id="@+id/img_signature"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:weightSum="3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dash"
+            android:text="@string/hint_cancel"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_dash"
+            android:text="@string/hint_clear"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_dash"
+            android:text="@string/hint_save"
+            android:textColor="@android:color/white"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
